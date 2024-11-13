@@ -16,7 +16,7 @@ header {
 }
 
 header img.profile {
-    width: 120px;
+    width: 100%;
     max-width: 100%; /* 在小屏幕上自动缩放 */
     height: auto;
     border-radius: 50%;
