@@ -8,25 +8,26 @@
 </head>
 <body>
     <header>
-        <img src="images/profile.jpg" alt="Chang Wang" class="profile">
-        <h1>Chang Wang</h1>
-        <p>Educational Psychology Scholar</p>
+        <img src="images/profile.jpg" alt="Profile picture of Chang Wang" class="profile">
+        <h1>Chang Wang (王畅)</h1>
+        <p>Phd student and Scholar in Educational Psychology</p>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html" aria-current="page">About</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h2>About Me</h2>
-        <p>Chang Wang is a scholar in educational psychology with a focus on...</p>
+        <section>
+            <h2>About Me</h2>
+            <p>I am Chang Wang (王畅), a dedicated ph.d. studentin educational psychology at Education department of UC, Santa Barbara, with a focus on academic motivation, peer influence, and family dynamics in cross-cultural contexts. My research aims to enhance understanding in international students in the cross-cultural environment</p>
+        </section>
     </main>
     <footer>
         <p>&copy; 2024 Chang Wang. All rights reserved.</p>
     </footer>
 </body>
 </html>
-
