@@ -4,29 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Chang Wang</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Ensure the CSS file path is correct -->
 </head>
 <body>
     <header>
-        <img src="images/profile.jpg" alt="Chang Wang" class="profile">
-        <h1>Chang Wang</h1>
+        <img src="images/profile.jpg" alt="Profile picture of Chang Wang" class="profile">
+        <h1>Chang Wang (王畅)</h1>
         <p>Educational Psychology Scholar</p>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <h2>Portfolio</h2>
-        <p>Here are some of my research projects and studies:</p>
-        <ul>
-            <li>Research Project 1</li>
-            <li>Research Project 2</li>
-            <li>Research Project 3</li>
+        <p>Below are some of my recent research projects and studies in educational psychology:</p>
+        
+        <ul class="portfolio-list">
+            <li>
+                <h3>Research Project 1: Exploring Academic Motivation</h3>
+                <p>A study on how academic motivation is influenced by peer dynamics and family structure among international students.</p>
+            </li>
+            <li>
+                <h3>Research Project 2: Family Dynamics in Educational Success</h3>
+                <p>An in-depth analysis of the impact of family structures on academic success, focusing on only-child experiences in cross-cultural contexts.</p>
+            </li>
+            <li>
+                <h3>Research Project 3: Cross-Cultural Adaptation and Self-Efficacy</h3>
+                <p>Research on how self-efficacy is affected by cultural transitions, examining adaptation challenges faced by international students.</p>
+            </li>
         </ul>
     </main>
     <footer>
@@ -34,4 +44,20 @@
     </footer>
 </body>
 </html>
+
+.portfolio-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.portfolio-list li {
+    background-color: #f9f9f9;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.portfolio-list h3 {
+    margin: 5px 0;
+}
 
