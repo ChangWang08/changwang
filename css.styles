@@ -34,16 +34,23 @@ header p {
     margin: 5px 0;
 }
 
-/* 导航栏样式 */
+/* 右上角导航栏样式 */
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex; /* 水平排列导航项 */
+    gap: 15px; /* 导航项之间的间距 */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0;
 }
 
 nav ul li a {
@@ -55,6 +62,7 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
 
 /* 主体样式 */
 main {
