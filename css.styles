@@ -88,3 +88,29 @@ footer {
     width: 100%;
     font-size: 0.9em;
 }
+/* 学术链接样式 */
+.academic-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.academic-links h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.academic-link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.academic-link:hover {
+    background-color: #005bb5;
+}
