@@ -37,8 +37,6 @@ header {
 }
 
 /* Navigation Styling */
-
-/* Navigation Styling */
 nav ul {
     list-style: none;
     padding: 0;
@@ -58,14 +56,6 @@ nav ul li a:hover {
 }
 
 /* Main Content Styling */
-/* Main Content Styling */
-main {
-    padding: 40px;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-}
-
 main {
     padding: 40px;
     max-width: 800px;
@@ -126,14 +116,8 @@ footer {
 .contact-info i {
     margin-right: 8px;
     color: #333;
-}
-
-.contact-info i {
-    margin-right: 5px;
-    color: #333; /* 可调整图标颜色 */
     vertical-align: middle;
 }
-
 
 /* UCSB Logo Styling */
 .ucsb-logo {
@@ -199,4 +183,5 @@ footer {
     margin: 5px 0;
     color: #555;
 }
+
 
