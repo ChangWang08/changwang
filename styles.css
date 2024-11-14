@@ -14,46 +14,11 @@ header {
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    position: relative;
-    height: 60px; /* Adjust header height */
+    justify-content: space-between;
 }
 
-/* Profile Picture Styling - Responsive */
-header img.profile {
-    position: absolute;
-    top: 2%;               /* Adjust the position slightly */
-    left: 2%;              /* Keeps it in the top-left corner */
-    width: 8vw;            /* Set width to 8% of the viewport width */
-    height: auto;          /* Maintain aspect ratio */
-    max-width: 100px;      /* Limit the maximum width */
-    border-radius: 50%;    /* Circular shape */
-    object-fit: cover;
-}
-
-/* Name and Title Styling */
-header h1 {
-    font-size: 1.2em;
+header h1, header p {
     margin: 0;
-    font-weight: bold;
-    text-align: center;
-    margin-right: auto;
-    margin-left: 8vw;      /* Space for the profile picture */
-    color: #fff;
-}
-
-header p {
-    font-size: 1em;
-    margin: 0;
-    font-weight: normal;
-    color: #fff;
-}
-
-/* Navigation Styling - Right-Aligned */
-nav {
-    position: absolute;
-    top: 10px;
-    right: 20px;
 }
 
 nav ul {
@@ -78,6 +43,25 @@ nav ul li a:hover {
 main {
     padding: 40px;
     text-align: center;
+}
+
+/* Intro Section Styling */
+.intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between image and text */
+    text-align: left; /* Align text to the left */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Profile Picture Styling */
+.profile {
+    width: 60px; /* Fixed size close to 2 inches */
+    height: 60px;
+    border-radius: 50%; /* Circular shape */
+    object-fit: cover; /* Ensure image fits within the dimensions */
 }
 
 /* Footer Styling */
