@@ -132,3 +132,31 @@ contact-info a:hover {
     width: 100px;
     height: auto;
 }
+/* Journal Section Styling */
+.journal-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.journal-section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.journal-entry {
+    margin-top: 20px;
+}
+
+.journal-entry h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.journal-entry p {
+    font-size: 1em;
+    color: #555;
+}
+
