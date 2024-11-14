@@ -22,7 +22,6 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            position: relative;
         }
 
         /* Scholar title on the left */
@@ -30,24 +29,10 @@
             font-size: 1em;
             font-weight: normal;
             color: #fff;
-            position: absolute;
-            left: 20px; /* Adjust to align on the left */
-        }
-
-        /* Name centered */
-        .center-name {
-            font-size: 1.5em;
-            font-weight: bold;
-            margin: 0 auto; /* Center the name */
-            color: #fff;
-            text-align: center;
+            margin-right: auto; /* Aligns title to the left */
         }
 
         /* Navigation Styling - Right-Aligned */
-        nav {
-            margin-left: auto;
-        }
-
         nav ul {
             list-style: none;
             padding: 0;
@@ -76,7 +61,7 @@
         .intro-section {
             display: flex;
             align-items: center;
-            flex-direction: column; /* Vertical layout for image and intro text */
+            flex-direction: column;
             text-align: center;
             gap: 20px;
             max-width: 800px;
@@ -85,10 +70,18 @@
 
         /* Profile Picture Styling - Smaller and Centered */
         .profile {
-            width: 25%; /* Approximately one-fourth of the screen width */
-            max-width: 150px; /* Maximum width for larger screens */
-            border-radius: 50%; /* Circular shape */
-            object-fit: cover; /* Ensures the image fills the circle */
+            width: 25%;
+            max-width: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* Intro Name Styling - Centered and Bold */
+        .intro-name {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin: 10px 0; /* Adds spacing around the name */
+            color: #333;
         }
 
         /* Footer Styling */
@@ -104,7 +97,6 @@
 <body>
     <header>
         <p class="scholar-title">Ph.D. student majored in Educational Psychology</p>
-        <h1 class="center-name">Chang Wang 王畅</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -118,6 +110,7 @@
     <main>
         <section class="intro-section">
             <img src="images/IMG_1712970404913.jpeg" alt="Profile picture of Chang Wang" class="profile">
+            <h1 class="intro-name">Chang Wang 王畅</h1>
             <div class="intro-text">
                 <h2>Welcome to My Academic Site</h2>
                 <p>Welcome to the personal website of Chang Wang 王畅, a Ph.D. student majored in educational psychology. Here you can find information about my research, publications, and contact details.</p>
@@ -129,4 +122,3 @@
     </footer>
 </body>
 </html>
-
