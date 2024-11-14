@@ -118,6 +118,13 @@ footer {
     color: #333;
 }
 
+.contact-info i {
+    margin-right: 5px;
+    color: #333; /* 可调整图标颜色 */
+    vertical-align: middle;
+}
+
+
 /* UCSB Logo Styling */
 .ucsb-logo {
     text-align: center;
