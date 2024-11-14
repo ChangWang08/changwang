@@ -169,3 +169,17 @@ footer {
     vertical-align: middle;
     margin-right: 5px;
 }
+.publication-entry {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.publication-entry h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.publication-entry p {
+    margin: 5px 0;
+    color: #555;
+}
