@@ -72,3 +72,43 @@ footer {
     padding: 15px 0;
     font-size: 0.9em;
 }
+
+/* Contact Information Styling */
+.contact-info {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-info li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.contact-info a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info i {
+    margin-right: 8px; /* Adds space between icon and text */
+    color: #333; /* Icon color */
+}
+
+/* UCSB Logo Styling */
+.ucsb-logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ucsb-logo .logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
