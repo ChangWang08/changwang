@@ -162,3 +162,10 @@ footer {
     font-size: 1em;
     color: #555;
 }
+/* PDF Icon Styling */
+.pdf-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
