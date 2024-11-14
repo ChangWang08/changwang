@@ -32,6 +32,13 @@ header img.profile {
     margin-right: 15px;   /* 给图片和标题之间留出间距 */
 }
 
+header img.profile {
+    width: 50px;
+    height: auto;
+    max-width: 100%; /* 确保不会超过容器宽度 */
+}
+
+
 header h1 {
     font-size: 1.5em;
     margin: 0;
