@@ -14,7 +14,6 @@ header {
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     position: relative;
 }
 
@@ -35,6 +34,7 @@ header {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    margin: 0; /* Ensures no extra margin is added */
 }
 
 /* Navigation Styling - Right-Aligned */
@@ -113,7 +113,7 @@ footer {
     text-decoration: none;
 }
 
-.contact-info a:hover {
+contact-info a:hover {
     text-decoration: underline;
 }
 
@@ -132,6 +132,3 @@ footer {
     width: 100px;
     height: auto;
 }
-
-
-
