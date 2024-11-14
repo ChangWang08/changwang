@@ -15,6 +15,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 /* Scholar title on the left */
@@ -22,7 +23,7 @@ header {
     font-size: 1em;
     font-weight: normal;
     color: #fff;
-    margin-right: auto; /* 确保标题在左侧 */
+    margin-right: auto;
 }
 
 /* Name centered */
@@ -31,7 +32,9 @@ header {
     font-weight: bold;
     color: #fff;
     text-align: center;
-    margin: 0 auto; /* 使标题居中 */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /* Navigation Styling - Right-Aligned */
@@ -129,5 +132,6 @@ footer {
     width: 100px;
     height: auto;
 }
+
 
 
