@@ -24,8 +24,10 @@
             justify-content: space-between;
         }
 
+        /* Scholar title on the left */
         .scholar-title {
             font-size: 1em;
+            font-weight: normal;
             color: #fff;
             margin-right: auto;
         }
@@ -63,16 +65,31 @@
             padding: 15px 0;
             margin-bottom: 15px;
             text-align: left;
+            font-size: 1em; /* Consistent font size */
         }
 
         .publication-entry h2 {
-            font-size: 1.5em;
+            font-size: 1em; /* Consistent font size for title */
             color: #333;
+            font-weight: bold; /* Keep titles bold */
         }
 
         .publication-entry p {
             margin: 5px 0;
             color: #555;
+            font-size: 1em;
+        }
+
+        .publication-entry p strong {
+            font-weight: bold; /* Keep certain text bold (e.g., "Authors:") */
+        }
+
+        /* PDF Icon Styling */
+        .pdf-icon {
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+            margin-right: 5px;
         }
 
         /* Footer Styling */
@@ -107,17 +124,26 @@
             <h1>Publications</h1>
             <p>A list of my academic publications, research contributions, and articles.</p>
             
-            <!-- Example of a publication entry -->
+            <!-- Example of a publication entry with PDF link -->
             <article class="publication-entry">
-                <h2>Wang, C., & Mireles-Rios, R. (2025). Impact of Peer Dynamics and Only-Children Experience on Academic Motivation among Chinese International Graduate Students in the U.S. Journal of International Students, 15(2), 1–24.</h2>
+                <h2>Wang, C., & Mireles-Rios, R. (2025). Impact of Peer Dynamics and Only-Children Experience on Academic Motivation among Chinese International Graduate Students in the U.S. <i>Journal of International Students</i>, 15(2), 1–24.</h2>
                 <p><strong>Authors:</strong> Chang Wang, Rebeca Mireles-Rios</p>
+                <p>
+                    <a href="documents/Your_Publication1.pdf" target="_blank">
+                        <img src="images/pdf-icon.png" alt="PDF icon" class="pdf-icon"> Download PDF
+                    </a>
+                </p>
             </article>
 
             <article class="publication-entry">
                 <h2>Title of Publication 2</h2>
                 <p><strong>Authors:</strong> Chang Wang, Co-author Name</p>
                 <p><strong>Abstract:</strong> This article discusses the role of peer influence in the academic success of international students...</p>
-                <p><a href="https://examplelinktopublication.com" target="_blank">View Full Article</a></p>
+                <p>
+                    <a href="documents/Your_Publication2.pdf" target="_blank">
+                        <img src="images/pdf-icon.png" alt="PDF icon" class="pdf-icon"> Download PDF
+                    </a>
+                </p>
             </article>
             
             <!-- Add more publication entries as needed -->
