@@ -22,10 +22,30 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            position: relative;
         }
 
-        header h1, header p {
-            margin: 0;
+        /* Scholar title on the left */
+        .scholar-title {
+            font-size: 1em;
+            font-weight: normal;
+            color: #fff;
+            position: absolute;
+            left: 20px; /* Adjust to align on the left */
+        }
+
+        /* Name centered */
+        .center-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 0 auto; /* Center the name */
+            color: #fff;
+            text-align: center;
+        }
+
+        /* Navigation Styling - Right-Aligned */
+        nav {
+            margin-left: auto;
         }
 
         nav ul {
@@ -56,7 +76,7 @@
         .intro-section {
             display: flex;
             align-items: center;
-            flex-direction: column; /* 纵向排列图片和介绍 */
+            flex-direction: column; /* Vertical layout for image and intro text */
             text-align: center;
             gap: 20px;
             max-width: 800px;
@@ -65,10 +85,10 @@
 
         /* Profile Picture Styling - Smaller and Centered */
         .profile {
-            width: 25%; /* 占页面宽度的四分之一 */
-            max-width: 150px; /* 设置最大宽度，防止过大 */
-            border-radius: 50%; /* 圆形图片 */
-            object-fit: cover; /* 保持图片填充圆形 */
+            width: 25%; /* Approximately one-fourth of the screen width */
+            max-width: 150px; /* Maximum width for larger screens */
+            border-radius: 50%; /* Circular shape */
+            object-fit: cover; /* Ensures the image fills the circle */
         }
 
         /* Footer Styling */
@@ -83,8 +103,8 @@
 </head>
 <body>
     <header>
-        <h1>Chang Wang</h1>
-        <p>Educational Psychology Scholar</p>
+        <p class="scholar-title">Educational Psychology Scholar</p>
+        <h1 class="center-name">Chang Wang 王畅</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -97,7 +117,6 @@
     </header>
     <main>
         <section class="intro-section">
-            <!-- 图片在自我介绍上方，确保class是 "profile" -->
             <img src="images/IMG_1712970404913.jpeg" alt="Profile picture of Chang Wang" class="profile">
             <div class="intro-text">
                 <h2>Welcome to My Academic Site</h2>
@@ -110,3 +129,4 @@
     </footer>
 </body>
 </html>
+
