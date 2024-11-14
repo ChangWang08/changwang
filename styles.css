@@ -16,6 +16,7 @@ header {
     align-items: center;
     justify-content: center; /* Centers name and nav within header */
     position: relative;
+    height: 60px; /* Adjust header height */
 }
 
 /* Profile Picture Styling - Top Left Corner */
@@ -23,21 +24,35 @@ header img.profile {
     position: absolute;
     top: 10px;
     left: 10px;
-    width: 30px;         /* Further reduced size */
-    height: 30px;
-    border-radius: 50%;  /* Circular shape */
+    width: 40px;          /* Reduced size */
+    height: 40px;
+    border-radius: 50%;   /* Circular shape */
+    object-fit: cover;    /* Ensures image scales properly within the dimensions */
 }
 
 /* Name and Title Styling */
 header h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 0;
     font-weight: bold;
+    text-align: center;
+    margin-right: auto;   /* Pushes title to center */
+    margin-left: 50px;    /* Space for the profile picture */
+    color: #fff;
+}
+
+header p {
+    font-size: 1em;
+    margin: 0;
+    font-weight: normal;
+    color: #fff;
 }
 
 /* Navigation Styling - Right-Aligned */
 nav {
-    margin-left: auto;
+    position: absolute;
+    top: 10px;
+    right: 20px;
 }
 
 nav ul {
@@ -72,4 +87,3 @@ footer {
     padding: 15px 0;
     font-size: 0.9em;
 }
-
