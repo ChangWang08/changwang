@@ -45,23 +45,23 @@ main {
     text-align: center;
 }
 
-/* Intro Section Styling */
+/* Intro Section Styling - Flexbox layout */
 .intro-section {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px; /* Space between image and text */
+    gap: 20px; /* Space between text and image */
     text-align: left; /* Align text to the left */
     max-width: 800px;
     margin: 0 auto;
 }
 
-/* Profile Picture Styling */
+/* Profile Picture Styling - Fixed smaller size */
 .profile {
-    width: 60px; /* Fixed size close to 2 inches */
-    height: 60px;
+    width: 50px; /* Adjusted size to be smaller, around 2 inches */
+    height: 50px;
     border-radius: 50%; /* Circular shape */
-    object-fit: cover; /* Ensure image fits within the dimensions */
+    object-fit: cover; /* Ensure image fills the circle */
 }
 
 /* Footer Styling */
@@ -72,3 +72,4 @@ footer {
     padding: 15px 0;
     font-size: 0.9em;
 }
+
