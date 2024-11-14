@@ -37,6 +37,8 @@ header {
 }
 
 /* Navigation Styling */
+
+/* Navigation Styling */
 nav ul {
     list-style: none;
     padding: 0;
@@ -56,6 +58,14 @@ nav ul li a:hover {
 }
 
 /* Main Content Styling */
+/* Main Content Styling */
+main {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 main {
     padding: 40px;
     max-width: 800px;
