@@ -15,10 +15,31 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
-header h1, header p {
-    margin: 0;
+/* Scholar title on the left */
+.scholar-title {
+    font-size: 1em;
+    font-weight: normal;
+    color: #fff;
+    position: absolute;
+    left: 20px;
+}
+
+/* Name centered */
+.center-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    flex: 1;
+}
+
+/* Navigation Styling - Right-Aligned */
+nav {
+    margin-left: auto;
 }
 
 nav ul {
@@ -49,7 +70,7 @@ main {
 .intro-section {
     display: flex;
     align-items: center;
-    flex-direction: column; /* 纵向排列图片和介绍 */
+    flex-direction: column;
     text-align: center;
     gap: 20px;
     max-width: 800px;
@@ -58,10 +79,10 @@ main {
 
 /* Profile Picture Styling - Smaller and Centered */
 .profile {
-    width: 25%; /* 占页面宽度的四分之一 */
-    max-width: 150px; /* 设置最大宽度，防止过大 */
-    border-radius: 50%; /* 圆形图片 */
-    object-fit: cover; /* 保持图片填充圆形 */
+    width: 25%;
+    max-width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 /* Footer Styling */
@@ -97,8 +118,8 @@ footer {
 }
 
 .contact-info i {
-    margin-right: 8px; /* Adds space between icon and text */
-    color: #333; /* Icon color */
+    margin-right: 8px;
+    color: #333;
 }
 
 /* UCSB Logo Styling */
@@ -108,7 +129,7 @@ footer {
 }
 
 .ucsb-logo .logo {
-    width: 100px; /* Adjust size as needed */
+    width: 100px;
     height: auto;
 }
 
