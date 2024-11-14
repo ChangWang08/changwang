@@ -19,15 +19,13 @@ header {
     height: 60px; /* Adjust header height */
 }
 
-/* Profile Picture Styling - Top Left Corner */
+/* Profile Picture Styling */
 header img.profile {
     position: absolute;
     top: 10px;
     left: 10px;
-    width: 40px;          /* Reduced size */
-    height: 40px;
-    border-radius: 50%;   /* Circular shape */
-    object-fit: cover;    /* Ensures image scales properly within the dimensions */
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 /* Name and Title Styling */
@@ -36,8 +34,8 @@ header h1 {
     margin: 0;
     font-weight: bold;
     text-align: center;
-    margin-right: auto;   /* Pushes title to center */
-    margin-left: 50px;    /* Space for the profile picture */
+    margin-right: auto;
+    margin-left: 60px; /* Space for the profile picture */
     color: #fff;
 }
 
