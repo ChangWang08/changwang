@@ -45,23 +45,23 @@ main {
     text-align: center;
 }
 
-/* Intro Section Styling - Flexbox layout */
+/* Intro Section Styling */
 .intro-section {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px; /* Space between text and image */
-    text-align: left; /* Align text to the left */
+    flex-direction: column; /* 将内容纵向排列，图片在文字上方 */
+    text-align: center;
+    gap: 20px;
     max-width: 800px;
     margin: 0 auto;
 }
 
-/* Profile Picture Styling - Fixed smaller size */
+/* Profile Picture Styling - Smaller and Centered */
 .profile {
-    width: 50px; /* Adjusted size to be smaller, around 2 inches */
-    height: 50px;
-    border-radius: 50%; /* Circular shape */
-    object-fit: cover; /* Ensure image fills the circle */
+    width: 25%; /* 占页面的约四分之一宽度 */
+    max-width: 150px; /* 最大宽度设置为150px，防止过大 */
+    border-radius: 50%; /* 圆形效果 */
+    object-fit: cover; /* 确保图片填充圆形 */
 }
 
 /* Footer Styling */
@@ -71,32 +71,4 @@ footer {
     text-align: center;
     padding: 15px 0;
     font-size: 0.9em;
-}
-
-/* Contact Information Styling */
-.contact-info {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.contact-info li {
-    margin: 10px 0;
-    font-size: 1.1em;
-}
-
-.contact-info a {
-    color: #0073e6;
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-}
-
-.contact-info i {
-    margin-right: 8px; /* Adds space between icon and text */
-    color: #333; /* Icon color */
 }
