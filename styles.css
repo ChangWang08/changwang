@@ -20,7 +20,6 @@ header {
 /* Scholar title on the left */
 .scholar-title {
     font-size: 1em;
-    font-weight: normal;
     color: #fff;
     margin-right: auto;
 }
@@ -30,14 +29,13 @@ header {
     font-size: 1.5em;
     font-weight: bold;
     color: #fff;
-    text-align: center;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     margin: 0;
 }
 
-/* Navigation Styling - Right-Aligned */
+/* Navigation Styling */
 nav {
     margin-left: auto;
 }
@@ -63,23 +61,22 @@ nav ul li a:hover {
 /* Main Content Styling */
 main {
     padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
-    max-width: 800px; /* Uniform width for main content */
-    margin: 0 auto; /* Center main content */
 }
 
-/* Intro Section Styling - Centering content */
+/* Intro Section Styling */
 .intro-section {
     display: flex;
     align-items: center;
     flex-direction: column;
-    text-align: center;
     gap: 20px;
     max-width: 800px;
     margin: 0 auto;
 }
 
-/* Profile Picture Styling - Smaller and Centered */
+/* Profile Picture Styling */
 .profile {
     width: 25%;
     max-width: 150px;
@@ -100,9 +97,9 @@ footer {
 .contact-info {
     list-style: none;
     padding: 0;
-    text-align: left;
     max-width: 600px;
     margin: 0 auto;
+    text-align: left;
 }
 
 .contact-info li {
@@ -162,6 +159,7 @@ footer {
     font-size: 1em;
     color: #555;
 }
+
 /* PDF Icon Styling */
 .pdf-icon {
     width: 16px;
@@ -169,6 +167,8 @@ footer {
     vertical-align: middle;
     margin-right: 5px;
 }
+
+/* Publication Entry Styling */
 .publication-entry {
     border-bottom: 1px solid #ddd;
     padding: 15px 0;
