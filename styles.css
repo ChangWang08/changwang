@@ -14,7 +14,7 @@ header {
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    position: relative;
+    justify-content: space-between;
 }
 
 /* Scholar title on the left */
@@ -24,7 +24,7 @@ header {
     margin-right: auto;
 }
 
-/* Name centered */
+/* Centered Name (optional for homepage) */
 .center-name {
     font-size: 1.5em;
     font-weight: bold;
@@ -36,10 +36,6 @@ header {
 }
 
 /* Navigation Styling */
-nav {
-    margin-left: auto;
-}
-
 nav ul {
     list-style: none;
     padding: 0;
