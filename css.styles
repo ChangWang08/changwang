@@ -1,4 +1,4 @@
-/* 设置字体和背景颜色 */
+/* 基本设置 */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,41 +11,38 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
 }
 
 header img.profile {
-    width: 30%;
-    max-width: 30%; /* 在小屏幕上自动缩放 */
-    height: auto;
-    border-radius: 50%;
-    margin-top: 10px;
+    width: 50px;          /* 控制图片宽度为50像素 */
+    height: 50px;         /* 控制图片高度为50像素 */
+    border-radius: 50%;   /* 使图片呈圆形 */
+    margin-right: 15px;   /* 给图片和标题之间留出间距 */
 }
 
-
 header h1 {
-    font-size: 1.8em;
-    margin: 5px 0;
+    font-size: 1.5em;
+    margin: 0;
 }
 
 header p {
-    font-size: 1.1em;
-    margin: 5px 0;
+    font-size: 1em;
+    margin: 0;
 }
 
-/* 右上角导航栏样式 */
+/* 导航栏样式 */
 nav {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    margin-left: auto;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* 水平排列导航项 */
+    display: flex;
     gap: 15px; /* 导航项之间的间距 */
 }
 
@@ -62,6 +59,7 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
 
 
 /* 主体样式 */
