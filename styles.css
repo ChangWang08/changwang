@@ -45,11 +45,11 @@ main {
     text-align: center;
 }
 
-/* Intro Section Styling */
+/* Intro Section Styling - Centering content */
 .intro-section {
     display: flex;
     align-items: center;
-    flex-direction: column; /* 将内容纵向排列，图片在文字上方 */
+    flex-direction: column; /* 纵向排列图片和介绍 */
     text-align: center;
     gap: 20px;
     max-width: 800px;
@@ -58,10 +58,10 @@ main {
 
 /* Profile Picture Styling - Smaller and Centered */
 .profile {
-    width: 25%; /* 占页面的约四分之一宽度 */
-    max-width: 150px; /* 最大宽度设置为150px，防止过大 */
-    border-radius: 50%; /* 圆形效果 */
-    object-fit: cover; /* 确保图片填充圆形 */
+    width: 25%; /* 占页面宽度的四分之一 */
+    max-width: 150px; /* 设置最大宽度，防止过大 */
+    border-radius: 50%; /* 圆形图片 */
+    object-fit: cover; /* 保持图片填充圆形 */
 }
 
 /* Footer Styling */
