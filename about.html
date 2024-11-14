@@ -24,7 +24,6 @@
             justify-content: space-between;
         }
 
-        /* Scholar title on the left */
         .scholar-title {
             font-size: 1em;
             font-weight: normal;
@@ -32,7 +31,6 @@
             margin-right: auto;
         }
 
-        /* Navigation Styling */
         nav ul {
             list-style: none;
             padding: 0;
@@ -54,7 +52,31 @@
         /* Main Content Styling */
         main {
             padding: 40px;
+            text-align: left;
+        }
+
+        section h2 {
             text-align: center;
+            color: #333;
+        }
+
+        /* About Me Section Styling */
+        .about-container {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .about-container img {
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        .about-text {
+            flex: 1;
         }
 
         /* Footer Styling */
@@ -85,19 +107,21 @@
     <main>
         <section>
             <h2>About Me</h2>
-            <p>Details about my background, research interests, and academic journey.</p>
+            <div class="about-container">
+                <!-- Replace 'dancing.jpg', 'cooking.jpg' with the actual file paths of your images -->
+                <img src="images/dancing.jpg" alt="Dancing" />
+                <img src="images/cooking.jpg" alt="Cooking" />
+                <img src="images/pilates.jpg" alt="Pilates" />
+
+                <div class="about-text">
+                    <p>Hello! I’m Chang Wang, a Ph.D. student in Educational Psychology at UC Santa Barbara. My academic work centers on exploring how international students adapt to new cultures and environments, with a particular focus on what motivates them academically. I’m driven by a curiosity to understand how different backgrounds and experiences shape our learning journeys.</p>
+                    
+                    <p>Beyond research, I’m passionate about finding joy in the everyday. Hip-hop dancing is my way of letting loose and staying active, while Pilates helps keep me balanced, both physically and mentally. Cooking and baking are my creative outlets—I love experimenting with recipes, whether it’s a new savory dish or a batch of sweet treats fresh from the oven.</p>
+
+                    <p>I believe in living a well-rounded life, combining my love for learning with hobbies that keep me grounded and energized. Through this site, I hope to share not only my professional journey but also a bit of what makes me, well, me! Thanks for visiting, and I hope you enjoy getting to know both sides of my world.</p>
+                </div>
+            </div>
         </section>
-
-        <section>
-            <h2>Me</h2>
-            <p>    <main>
-        <section>
-            <h2>About Me</h2>
-            <p> Hello! I’m Chang Wang, a Ph.D. student in Educational Psychology at UC Santa Barbara. My academic work centers on exploring how international students adapt to new cultures and environments, with a particular focus on what motivates them academically. I’m driven by a curiosity to understand how different backgrounds and experiences shape our learning journeys.
-
-Beyond research, I’m passionate about finding joy in the everyday. Hip-hop dancing is my way of letting loose and staying active, while Pilates helps keep me balanced, both physically and mentally. Cooking and baking are my creative outlets—I love experimenting with recipes, whether it’s a new savory dish or a batch of sweet treats fresh from the oven.
-
-I believe in living a well-rounded life, combining my love for learning with hobbies that keep me grounded and energized. Through this site, I hope to share not only my professional journey but also a bit of what makes me, well, me! Thanks for visiting, and I hope you enjoy getting to know both sides of my world.</p>
     </main>
 
     <footer>
