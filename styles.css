@@ -34,7 +34,7 @@ header {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin: 0; /* Ensures no extra margin is added */
+    margin: 0;
 }
 
 /* Navigation Styling - Right-Aligned */
@@ -64,6 +64,8 @@ nav ul li a:hover {
 main {
     padding: 40px;
     text-align: center;
+    max-width: 800px; /* Uniform width for main content */
+    margin: 0 auto; /* Center main content */
 }
 
 /* Intro Section Styling - Centering content */
@@ -113,7 +115,7 @@ footer {
     text-decoration: none;
 }
 
-contact-info a:hover {
+.contact-info a:hover {
     text-decoration: underline;
 }
 
@@ -132,6 +134,7 @@ contact-info a:hover {
     width: 100px;
     height: auto;
 }
+
 /* Journal Section Styling */
 .journal-section {
     max-width: 800px;
@@ -159,4 +162,3 @@ contact-info a:hover {
     font-size: 1em;
     color: #555;
 }
-
