@@ -14,32 +14,28 @@ header {
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; /* Centers name and nav within header */
     position: relative;
 }
 
-/* Profile Picture Styling */
+/* Profile Picture Styling - Top Left Corner */
 header img.profile {
-    width: 40px;           /* Reduced width */
-    height: 40px;          /* Reduced height */
-    border-radius: 50%;    /* Circular shape */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30px;         /* Further reduced size */
+    height: 30px;
+    border-radius: 50%;  /* Circular shape */
 }
 
 /* Name and Title Styling */
 header h1 {
     font-size: 1.5em;
     margin: 0;
-    font-weight: bold;     /* Bold the name */
-    margin-left: 10px;
+    font-weight: bold;
 }
 
-header p {
-    font-size: 1em;
-    margin: 0;
-    font-weight: normal;   /* Regular weight for title */
-}
-
-/* Navigation Styling */
+/* Navigation Styling - Right-Aligned */
 nav {
     margin-left: auto;
 }
@@ -62,33 +58,10 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Main Content Styling for Subpages */
+/* Main Content Styling */
 main {
     padding: 40px;
     text-align: center;
-}
-
-/* Contact Information List Styling */
-.contact-info {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.contact-info li {
-    margin: 10px 0;
-    font-size: 1.1em;
-}
-
-.contact-info a {
-    color: #0073e6;
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
 }
 
 /* Footer Styling */
@@ -99,3 +72,4 @@ footer {
     padding: 15px 0;
     font-size: 0.9em;
 }
+
