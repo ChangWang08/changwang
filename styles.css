@@ -14,17 +14,20 @@ header {
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: center; /* Centers name and nav within header */
+    justify-content: center;
     position: relative;
     height: 60px; /* Adjust header height */
 }
 
-/* Profile Picture Styling */
+/* Profile Picture Styling - Responsive */
 header img.profile {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    border-radius: 50%;
+    top: 2%;               /* Adjust the position slightly */
+    left: 2%;              /* Keeps it in the top-left corner */
+    width: 8vw;            /* Set width to 8% of the viewport width */
+    height: auto;          /* Maintain aspect ratio */
+    max-width: 100px;      /* Limit the maximum width */
+    border-radius: 50%;    /* Circular shape */
     object-fit: cover;
 }
 
@@ -35,7 +38,7 @@ header h1 {
     font-weight: bold;
     text-align: center;
     margin-right: auto;
-    margin-left: 60px; /* Space for the profile picture */
+    margin-left: 8vw;      /* Space for the profile picture */
     color: #fff;
 }
 
