@@ -15,6 +15,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 /* Scholar title on the left */
@@ -24,7 +25,7 @@ header {
     margin-right: auto;
 }
 
-/* Centered Name (optional for homepage) */
+/* Centered Name (optional, only for homepage) */
 .center-name {
     font-size: 1.5em;
     font-weight: bold;
@@ -72,7 +73,7 @@ main {
     margin: 0 auto;
 }
 
-/* Profile Picture Styling */
+/* Profile Picture Styling (only for homepage) */
 .profile {
     width: 25%;
     max-width: 150px;
@@ -179,3 +180,4 @@ footer {
     margin: 5px 0;
     color: #555;
 }
+
