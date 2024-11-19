@@ -7,26 +7,26 @@
     <style>
         /* Basic Settings */
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Arial", sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #f9f9f9; /* Softer background for better contrast */
+            color: #222; /* Darker text for easier reading */
+            line-height: 1.6; /* Increased line height for readability */
         }
 
         /* Header Styling */
         header {
-            background-color: #333;
+            background-color: #444; /* Softer black for less strain */
             color: #fff;
-            padding: 10px 20px;
+            padding: 15px 20px;
             display: flex;
             align-items: center;
             justify-content: space-between;
         }
 
         .scholar-title {
-            font-size: 1em;
-            color: #fff;
+            font-size: 1.2em;
             margin-right: auto;
         }
 
@@ -35,7 +35,7 @@
             padding: 0;
             margin: 0;
             display: flex;
-            gap: 15px;
+            gap: 20px;
         }
 
         nav ul li a {
@@ -50,43 +50,71 @@
 
         /* Main Content Styling */
         main {
-            padding: 40px;
-            text-align: center;
+            padding: 40px 20px;
+            text-align: left;
+            max-width: 900px;
+            margin: 0 auto;
         }
 
         /* Intro Section Styling */
         .intro-section {
             display: flex;
-            align-items: center;
             flex-direction: column;
+            align-items: center;
             text-align: center;
-            gap: 20px;
-            max-width: 800px;
-            margin: 0 auto;
+            gap: 25px;
         }
 
         .profile {
-            width: 25%;
-            max-width: 150px;
+            width: 150px;
             border-radius: 50%;
             object-fit: cover;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         .intro-name {
-            font-size: 1.8em;
+            font-size: 2em; /* Slightly larger font size for better visibility */
             font-weight: bold;
-            margin: 10px 0;
+            margin: 15px 0;
             color: #333;
+        }
+
+        .intro-text p {
+            font-size: 1.1em; /* Larger paragraph text for readability */
+            margin: 10px 0;
+        }
+
+        .intro-text h2 {
+            font-size: 1.6em;
+            margin-bottom: 15px;
+            color: #0073e6;
+        }
+
+        /* Highlighted Research Interests */
+        .research-interests {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #0073e6;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .research-interests span {
+            display: block;
+            margin-top: 10px;
+            font-size: 1.1em;
+            color: #222;
+            font-weight: normal;
         }
 
         /* Social Links Styling */
         .social-links {
-            margin-top: 20px;
+            margin-top: 25px;
             font-size: 1.2em;
         }
 
         .social-links a {
-            margin: 0 10px;
+            margin: 0 15px;
             color: #0073e6;
             text-decoration: none;
         }
@@ -97,11 +125,11 @@
 
         /* Footer Styling */
         footer {
-            background-color: #333;
+            background-color: #444;
             color: #fff;
             text-align: center;
-            padding: 15px 0;
-            font-size: 0.9em;
+            padding: 20px 0;
+            font-size: 1em;
         }
     </style>
     <!-- Font Awesome for icons -->
@@ -126,19 +154,16 @@
             <img src="images/IMG_1712970404913.jpeg" alt="Profile picture of Chang Wang" class="profile">
             <h1 class="intro-name">Chang Wang 王畅</h1>
             <div class="intro-text">
-    <h2>Welcome to My Academic Site</h2>
-    <p>Hello! I’m Chang Wang, originally from Tianjin, China, and currently a Ph.D. student specializing in Educational Psychology at the University of California, Santa Barbara.</p>
-    <p>Here, you’ll find an overview of my research, recent publications, and ways to connect.</p>
-    <p style="font-size: 1.2em; font-weight: bold; color: #0073e6; margin-top: 20px; text-align: center;">
-        Research Interests:
-        <span style="color: #333; font-weight: normal;">
-            Academic Motivation, Peer Influence, Only-Children Experience, International Students’ Transitional Experience
-        </span>
-    </p>
-    <p>Follow my personal journal as I navigate my path toward an academic career.</p>
-    <p>Thank you for visiting, and enjoy exploring!</p>
-</div>
-
+                <h2>Welcome to My Academic Site</h2>
+                <p>Hello! I’m Chang Wang, originally from Tianjin, China, and currently a Ph.D. student specializing in Educational Psychology at the University of California, Santa Barbara.</p>
+                <p>Here, you’ll find an overview of my research, recent publications, and ways to connect.</p>
+                <div class="research-interests">
+                    Research Interests:
+                    <span>Academic Motivation, Peer Influence, Only-Children Experience, International Students’ Transitional Experience</span>
+                </div>
+                <p>Follow my personal journal as I navigate my path toward an academic career.</p>
+                <p>Thank you for visiting, and enjoy exploring!</p>
+            </div>
             <div class="social-links">
                 <a href="https://scholar.google.com" target="_blank" title="Google Scholar"><i class="fab fa-google-scholar"></i> Google Scholar</a>
                 <a href="https://www.researchgate.net/profile/Chang-Wang-73" target="_blank" title="ResearchGate"><i class="fab fa-researchgate"></i> ResearchGate</a>
@@ -150,3 +175,4 @@
     </footer>
 </body>
 </html>
+
